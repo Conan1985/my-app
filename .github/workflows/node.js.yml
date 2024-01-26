@@ -5,7 +5,7 @@ name: CI
 env:
   SCREENER_API_KEY: ${{secrets.SCREENER_API_KEY}}
   SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
-  SAUCE_ACESS_KEY: ${{secrests.SAUCE_ACESS_KEY}}
+  SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
   
 on:
   push:
